@@ -57,7 +57,7 @@ steps:
               - columnReferences:
                   - columnCounter: 5625f706-c077-48f2-b2c4-65235c8cfde8
                     stepCounter: 20c0e59b-d192-4751-b51b-ab456da7ca5a
-                transform: ""
+                transform: UPPER("CUSTOMER"."C_ADDRESS")
           - columnReference:
               columnCounter: 18a36e3e-f253-4667-ae19-6634a8639aad
               stepCounter: b4e57a02-d2f7-42a3-b8aa-daeec59f6d1f
